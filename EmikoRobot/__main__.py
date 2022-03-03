@@ -84,24 +84,24 @@ PM_START_TEXT = """
 
 ╔ /start: Starts me! You've probably already used this.
 ╠ /help: Click this, I'll let you know about myself!
-╠ /donate: You can support my creater using this command.
+╠ /donate: You can support my creater using this command[.](https://telegra.ph/file/f488ad7e655da16440426.jpg)
 ╠ /settings : 
 ╚══║in PM: will send you your settings for all supported modules.
    ╚ in a Group: will redirect you to pm, with all that chat's settings.
-   Powered by : [ALAN WALKER](https://telegra.ph/file/52b1b195f0d7df5ff79b2.jpg)
+   Powered by : [𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚](https://t.me/KING_0F_CB)
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧 𝗟𝗨𝗡𝗔", callback_data="emiko_"),
+        InlineKeyboardButton(text="🔻✨𝗔𝗕𝗢𝗨𝗧 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚✨🔺", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="🔻✨𝗚𝗘𝗧 𝗛𝗘𝗟𝗣✨🔺", callback_data="help_back"),
+        InlineKeyboardButton(text="🔻✨𝗧𝗥𝗬 𝗜𝗡𝗟𝗜𝗡𝗘✨🔺", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="➗ 𝗔𝗗𝗗 𝗟𝗨𝗡𝗔 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Missharelyluna_bot?startgroup=new"
+            text="💙✨𝗔𝗗𝗗 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣✨❤️", url="https://t.me/Missharelyluna_bot?startgroup=new"
         ),
     ],
 ]
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/52b1b195f0d7df5ff79b2.jpg"
+EMI_IMG = "https://telegra.ph/file/f488ad7e655da16440426.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting [ALAN WALKER](https://t.me/alpha_romeo_06) \
@@ -369,7 +369,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *LUNA*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -377,7 +377,7 @@ def emiko_about_callback(update, context):
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
             "\n\n_ 𝗟𝗨𝗡𝗔 licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for THECOOLMOON.",
+            "\n\n Click on button bellow to get basic help for 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -429,7 +429,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, LUNA now ready to manage your group."
+            "\nCongragulations, 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -456,15 +456,15 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏𝗟𝗨𝗡𝗔 support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on  𝗟𝗨𝗡𝗔.",
+            text="*𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 support chats*"
+            "\nJoin My Support Group/Channel for see or report a problem on 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Support", url="https://t.me/lunasupportz"),
+                        InlineKeyboardButton(text="Support", url="https://t.me/ZaynKing_Support"),
                         InlineKeyboardButton(
-                            text="Updates", url="https://t.me/MISSHARELYLUNA"
+                            text="Updates", url="https://t.me/ZaynKing_Support"
                         ),
                     ],
                     [
@@ -484,48 +484,13 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Luna", url="https://t.me/MISSHARELYLUNA"
+                            text="zayn", url="https://t.me/ZaynKing_Support"
                         ),
                         InlineKeyboardButton(
-                            text="GP",url="https://t.me/Gplove_Rp"
+                            text="log",url="https://t.me/ZaynKing_Support"
                         ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="GBAN APPEAL", url="https://t.me/+XIXpe_mMeHtiMjdl"
-                        ),
-                        InlineKeyboardButton(
-                            text="BAN LOG", url="https://t.me/thecoolmoon"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="BOT RCT CALL", url="https://t.me/thecoolmoon"
-                        ),
-                        InlineKeyboardButton(
-                            text="VEDIO CHANNEL", url="https://t.me/alan_walker_share"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="OFFICIAL TALK", url="https://t.me/luna_officials"
-                        ),
-                        InlineKeyboardButton(
-                            text="OFF TALKS", url="https://t.me/thecoolmoonoff"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="ALAN WALKER", url="https://t.me/Missharelyluna_bot"
-                        ),
-                        InlineKeyboardButton(
-                            text="BOT UPDATE", url="https://t.me/MISSHARELYLUNA"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
-                    ],
-                ]
+                     ],
+               ]
             ),
         )
 
@@ -838,7 +803,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive.", parse_mode=ParseMode.MARKDOWN
+                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive by boss is busy .", parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
             LOGGER.warning(
