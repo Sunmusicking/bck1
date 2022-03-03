@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💙✨𝗔𝗗𝗗 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣✨❤️", url="https://t.me/Missharelyluna_bot?startgroup=new"
+            text="💙✨𝗔𝗗𝗗 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣✨❤️", url="https://t.me/ZaynKing_Bot?startgroup=new"
         ),
     ],
 ]
