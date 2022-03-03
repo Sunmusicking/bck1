@@ -376,7 +376,7 @@ def emiko_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_ 𝗟𝗨𝗡𝗔 licensed under the GNU General Public License v3.0_"
+            "\n\n_ 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚 licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -476,8 +476,8 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for 𝗟𝗨𝗡𝗔\n"
-            "\nJOIN AND SUPPORT OUR TEAM 𝗟𝗨𝗡𝗔",
+            text=f"๏ Credis for 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚\n"
+            "\nJOIN AND SUPPORT OUR TEAM 𝗭𝗔𝗬𝗡 𝗞𝗜𝗡𝗚",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 
@@ -490,6 +490,9 @@ def emiko_about_callback(update, context):
                             text="log",url="https://t.me/ZaynKing_Support"
                         ),
                      ],
+                     [
+                        InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    ],
                ]
             ),
         )
