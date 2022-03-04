@@ -113,7 +113,7 @@ Click on the button bellow to get description about specifics command."""
 EMI_IMG = "https://telegra.ph/file/f488ad7e655da16440426.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [ALAN WALKER](https://t.me/alpha_romeo_06) \
+ You can support the project by contacting [KING](https://t.me/KING_0F_CB) \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
