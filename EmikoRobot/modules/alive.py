@@ -16,14 +16,14 @@ PHOTO = "https://telegra.ph/file/958914a32b96ce65566c2.jpg"
 async def awake(event):
     TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm ZAYN KING .** \n\n"
     TEXT += "⚪ **I'm Working Properly** \n\n"
-    TEXT += f"⚪ **My Master : [ZAYN KING](https://t.me/alpha_romeo_06)** \n\n"
+    TEXT += f"⚪ **My Master : [ZAYN KING](https://t.me/KING_0F_CB)** \n\n"
     TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
     TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
     TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
     TEXT += "**Thanks For Adding Me Here ❤️**"
     BUTTON = [
         [
-            Button.url("Help", "https://t.me/ZaynKing_Bot?start=help"),
+            Button.url("Help", "https://t.me/KING_0F_CB"),
             Button.url("Support", "https://t.me/ZaynKing_Support"),
         ]
     ]
