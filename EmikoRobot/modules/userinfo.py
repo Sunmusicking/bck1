@@ -369,10 +369,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/MISSHARELYLUNA/5"
+                                "Health", url="https://t.me/ZaynKing_Support"
                             ),
                             InlineKeyboardButton(
-                                "support", url="https://t.me/lunasupportz"
+                                "support", url="https://t.me/ZaynKing_Support"
                             ),
                         ],
                     ]
@@ -389,10 +389,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/MISSHARELYLUNA/5"
+                                "Health", url="https://t.me/ZaynKing_Support"
                             ),
                             InlineKeyboardButton(
-                                "SUPPORT", url="https://t.me/lunasupportz"
+                                "SUPPORT", url="https://t.me/ZaynKing_Support"
                             ),
                         ],
                     ]
